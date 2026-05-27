@@ -1,0 +1,501 @@
+<svg width="860" height="720" viewBox="0 0 860 720" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>THANUJAYA448 GitHub Profile Dashboard</title>
+  <desc>Futuristic cyberpunk GitHub profile dashboard for THANUJAYA HASARANGA PERERA</desc>
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&amp;family=Share+Tech+Mono&amp;display=swap');
+    </style>
+    <!-- Cyan glow filter -->
+    <filter id="glow-c" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-v" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-p" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="text-glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Scanline pattern -->
+    <pattern id="scanlines" width="1" height="4" patternUnits="userSpaceOnUse">
+      <rect width="1" height="2" fill="rgba(0,255,255,0.015)"/>
+    </pattern>
+
+    <!-- Grid pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(0,255,255,0.04)" stroke-width="0.5"/>
+    </pattern>
+
+    <!-- Mini graph path gradients -->
+    <linearGradient id="grad-cyan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00ffff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#00ffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="grad-violet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="grad-pink" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f472b6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Stats chart gradients -->
+    <linearGradient id="stat-cyan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00ffff" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#00ffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="stat-pink" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f472b6" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="stat-violet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- System bar fills -->
+    <linearGradient id="bar-cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00ffff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#00ffff"/>
+    </linearGradient>
+    <linearGradient id="bar-violet" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <linearGradient id="bar-pink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f472b6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+
+    <!-- Particle dots (decorative) -->
+    <circle id="dot" r="1.5"/>
+
+    <clipPath id="clip-g1"><rect x="0" y="0" width="160" height="38"/></clipPath>
+    <clipPath id="clip-g2"><rect x="0" y="0" width="160" height="38"/></clipPath>
+    <clipPath id="clip-g3"><rect x="0" y="0" width="160" height="38"/></clipPath>
+  </defs>
+
+  <!-- ═══════ BACKGROUND ═══════ -->
+  <rect width="860" height="720" fill="#03040a" rx="12"/>
+  <rect width="860" height="720" fill="url(#grid)" rx="12"/>
+  <rect width="860" height="720" fill="url(#scanlines)" rx="12"/>
+
+  <!-- Decorative corner cyberpunk lines TL -->
+  <polyline points="0,80 0,12 12,0 80,0" fill="none" stroke="rgba(0,255,255,0.25)" stroke-width="1"/>
+  <polyline points="0,90 0,16 16,0 90,0" fill="none" stroke="rgba(0,255,255,0.1)" stroke-width="0.5"/>
+  <!-- TR -->
+  <polyline points="860,80 860,12 848,0 780,0" fill="none" stroke="rgba(0,255,255,0.25)" stroke-width="1"/>
+  <polyline points="860,90 860,16 844,0 770,0" fill="none" stroke="rgba(0,255,255,0.1)" stroke-width="0.5"/>
+  <!-- BL -->
+  <polyline points="0,640 0,708 12,720 80,720" fill="none" stroke="rgba(168,85,247,0.25)" stroke-width="1"/>
+  <!-- BR -->
+  <polyline points="860,640 860,708 848,720 780,720" fill="none" stroke="rgba(168,85,247,0.25)" stroke-width="1"/>
+
+  <!-- Ambient particles -->
+  <circle cx="50" cy="150" r="1.2" fill="rgba(0,255,255,0.5)"/>
+  <circle cx="130" cy="420" r="0.8" fill="rgba(168,85,247,0.5)"/>
+  <circle cx="810" cy="200" r="1.5" fill="rgba(244,114,182,0.4)"/>
+  <circle cx="780" cy="500" r="1" fill="rgba(0,255,255,0.4)"/>
+  <circle cx="430" cy="695" r="1.2" fill="rgba(168,85,247,0.5)"/>
+  <circle cx="60" cy="600" r="0.9" fill="rgba(244,114,182,0.4)"/>
+  <circle cx="820" cy="650" r="1.1" fill="rgba(0,255,255,0.3)"/>
+  <circle cx="200" cy="80" r="0.8" fill="rgba(244,114,182,0.3)"/>
+  <circle cx="650" cy="710" r="1" fill="rgba(0,255,255,0.3)"/>
+  <circle cx="740" cy="88" r="0.9" fill="rgba(168,85,247,0.4)"/>
+
+  <!-- Data trail lines -->
+  <line x1="0" y1="340" x2="18" y2="340" stroke="rgba(0,255,255,0.3)" stroke-width="0.5"/>
+  <line x1="842" y1="380" x2="860" y2="380" stroke="rgba(244,114,182,0.3)" stroke-width="0.5"/>
+  <line x1="420" y1="0" x2="420" y2="18" stroke="rgba(168,85,247,0.3)" stroke-width="0.5"/>
+
+  <!-- ═══════ HEADER PANEL ═══════ -->
+  <rect x="18" y="18" width="824" height="148" rx="8" fill="rgba(0,255,255,0.03)" stroke="rgba(0,255,255,0.4)" stroke-width="1"/>
+  <!-- Header inner accent line -->
+  <line x1="18" y1="44" x2="842" y2="44" stroke="rgba(0,255,255,0.1)" stroke-width="0.5"/>
+  <!-- Corner accents on header -->
+  <rect x="18" y="18" width="12" height="1" fill="#00ffff"/>
+  <rect x="18" y="18" width="1" height="12" fill="#00ffff"/>
+  <rect x="830" y="18" width="12" height="1" fill="#00ffff"/>
+  <rect x="841" y="18" width="1" height="12" fill="#00ffff"/>
+  <rect x="18" y="155" width="12" height="1" fill="#00ffff"/>
+  <rect x="18" y="155" width="1" height="11" fill="#00ffff"/>
+  <rect x="830" y="155" width="12" height="1" fill="#00ffff"/>
+  <rect x="841" y="155" width="1" height="11" fill="#00ffff"/>
+
+  <!-- Holo badge -->
+  <rect x="290" y="24" width="280" height="18" rx="2" fill="rgba(0,255,255,0.06)" stroke="rgba(0,255,255,0.6)" stroke-width="0.8"/>
+  <text x="430" y="36.5" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="9" fill="#00ffff" letter-spacing="3">◈ GITHUB PROFILE INTERFACE v4.8 ◈</text>
+
+  <!-- Avatar hexagon -->
+  <polygon points="430,50 455,63 455,88 430,101 405,88 405,63" fill="rgba(0,255,255,0.07)" stroke="rgba(0,255,255,0.7)" stroke-width="1.5" filter="url(#glow-c)"/>
+  <polygon points="430,55 450,66 450,85 430,96 410,85 410,66" fill="rgba(168,85,247,0.1)" stroke="rgba(168,85,247,0.4)" stroke-width="0.8"/>
+  <line x1="430" y1="50" x2="430" y2="101" stroke="rgba(0,255,255,0.2)" stroke-width="0.5"/>
+  <line x1="405" y1="63" x2="455" y2="88" stroke="rgba(0,255,255,0.2)" stroke-width="0.5"/>
+  <line x1="455" y1="63" x2="405" y2="88" stroke="rgba(0,255,255,0.2)" stroke-width="0.5"/>
+  <circle cx="430" cy="75" r="9" fill="rgba(0,255,255,0.08)" stroke="rgba(0,255,255,0.5)" stroke-width="0.8"/>
+  <circle cx="430" cy="75" r="4.5" fill="rgba(168,85,247,0.3)" stroke="rgba(168,85,247,0.8)" stroke-width="0.8"/>
+  <circle cx="430" cy="75" r="1.8" fill="#00ffff"/>
+
+  <!-- Username -->
+  <text x="430" y="118" text-anchor="middle" font-family="'Orbitron', 'Share Tech Mono', monospace" font-size="26" font-weight="900" fill="#00ffff" letter-spacing="5" filter="url(#text-glow)">THANUJAYA448</text>
+  <!-- Full name -->
+  <text x="430" y="133" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="11" fill="#c084fc" letter-spacing="2.5">THANUJAYA HASARANGA PERERA</text>
+  <!-- Subtitle -->
+  <text x="430" y="149" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="9.5" fill="#f472b6" letter-spacing="1.5">◆ FUTURISTIC DEVELOPER &amp; DIGITAL ARCHITECT ◆</text>
+
+  <!-- ═══════ TECH STACK PANEL (left) ═══════ -->
+  <rect x="18" y="178" width="198" height="210" rx="8" fill="rgba(0,255,255,0.025)" stroke="rgba(0,255,255,0.3)" stroke-width="1"/>
+  <!-- Title bar -->
+  <rect x="18" y="178" width="198" height="24" rx="8" fill="rgba(0,255,255,0.06)"/>
+  <rect x="18" y="190" width="198" height="12" fill="rgba(0,255,255,0.06)"/>
+  <line x1="18" y1="202" x2="216" y2="202" stroke="rgba(0,255,255,0.2)" stroke-width="0.8"/>
+  <text x="30" y="194" font-family="'Orbitron', monospace" font-size="9" fill="#00ffff" letter-spacing="2" font-weight="700">◈ TECH STACK</text>
+
+  <!-- React row -->
+  <rect x="28" y="208" width="178" height="40" rx="4" fill="rgba(97,218,251,0.04)"/>
+  <line x1="28" y1="248" x2="206" y2="248" stroke="rgba(0,255,255,0.1)" stroke-width="0.5"/>
+  <rect x="34" y="213" width="30" height="30" rx="5" fill="rgba(97,218,251,0.1)" stroke="rgba(97,218,251,0.4)" stroke-width="0.8"/>
+  <text x="49" y="231" text-anchor="middle" font-family="'Orbitron', monospace" font-size="10" font-weight="700" fill="#61dafb">Re</text>
+  <text x="74" y="227" font-family="'Share Tech Mono', monospace" font-size="10.5" fill="#61dafb" letter-spacing="0.5">React</text>
+  <text x="74" y="240" font-family="'Share Tech Mono', monospace" font-size="7.5" fill="rgba(97,218,251,0.5)" letter-spacing="1">UI ENGINE</text>
+  <!-- energy line -->
+  <line x1="170" y1="228" x2="206" y2="228" stroke="rgba(0,255,255,0.5)" stroke-width="0.8"/>
+  <circle cx="207" cy="228" r="1.5" fill="#00ffff"/>
+
+  <!-- Python row -->
+  <rect x="28" y="248" width="178" height="40" rx="0" fill="rgba(251,191,36,0.03)"/>
+  <line x1="28" y1="288" x2="206" y2="288" stroke="rgba(0,255,255,0.1)" stroke-width="0.5"/>
+  <rect x="34" y="253" width="30" height="30" rx="5" fill="rgba(251,191,36,0.1)" stroke="rgba(251,191,36,0.4)" stroke-width="0.8"/>
+  <text x="49" y="271" text-anchor="middle" font-family="'Orbitron', monospace" font-size="10" font-weight="700" fill="#fbbf24">Py</text>
+  <text x="74" y="267" font-family="'Share Tech Mono', monospace" font-size="10.5" fill="#fbbf24" letter-spacing="0.5">Python</text>
+  <text x="74" y="280" font-family="'Share Tech Mono', monospace" font-size="7.5" fill="rgba(251,191,36,0.5)" letter-spacing="1">CORE LANG</text>
+  <line x1="170" y1="268" x2="206" y2="268" stroke="rgba(168,85,247,0.5)" stroke-width="0.8"/>
+  <circle cx="207" cy="268" r="1.5" fill="#c084fc"/>
+
+  <!-- GitHub row -->
+  <rect x="28" y="288" width="178" height="40" rx="0" fill="rgba(0,255,255,0.025)"/>
+  <line x1="28" y1="328" x2="206" y2="328" stroke="rgba(0,255,255,0.1)" stroke-width="0.5"/>
+  <rect x="34" y="293" width="30" height="30" rx="5" fill="rgba(0,255,255,0.1)" stroke="rgba(0,255,255,0.4)" stroke-width="0.8"/>
+  <text x="49" y="311" text-anchor="middle" font-family="'Orbitron', monospace" font-size="10" font-weight="700" fill="#00ffff">GH</text>
+  <text x="74" y="307" font-family="'Share Tech Mono', monospace" font-size="10.5" fill="#00ffff" letter-spacing="0.5">GitHub</text>
+  <text x="74" y="320" font-family="'Share Tech Mono', monospace" font-size="7.5" fill="rgba(0,255,255,0.5)" letter-spacing="1">VERSION CTRL</text>
+  <line x1="170" y1="308" x2="206" y2="308" stroke="rgba(0,255,255,0.5)" stroke-width="0.8"/>
+  <circle cx="207" cy="308" r="1.5" fill="#00ffff"/>
+
+  <!-- Figma row -->
+  <rect x="28" y="328" width="178" height="56" rx="4" fill="rgba(244,114,182,0.03)"/>
+  <rect x="34" y="333" width="30" height="30" rx="5" fill="rgba(244,114,182,0.1)" stroke="rgba(244,114,182,0.4)" stroke-width="0.8"/>
+  <text x="49" y="351" text-anchor="middle" font-family="'Orbitron', monospace" font-size="10" font-weight="700" fill="#f472b6">Fi</text>
+  <text x="74" y="347" font-family="'Share Tech Mono', monospace" font-size="10.5" fill="#f472b6" letter-spacing="0.5">Figma</text>
+  <text x="74" y="360" font-family="'Share Tech Mono', monospace" font-size="7.5" fill="rgba(244,114,182,0.5)" letter-spacing="1">DESIGN SYS</text>
+  <line x1="170" y1="348" x2="206" y2="348" stroke="rgba(244,114,182,0.5)" stroke-width="0.8"/>
+  <circle cx="207" cy="348" r="1.5" fill="#f472b6"/>
+
+  <!-- ═══════ RECENT PROJECTS PANEL (center) ═══════ -->
+  <rect x="228" y="178" width="298" height="210" rx="8" fill="rgba(168,85,247,0.025)" stroke="rgba(168,85,247,0.3)" stroke-width="1"/>
+  <rect x="228" y="178" width="298" height="24" rx="8" fill="rgba(168,85,247,0.06)"/>
+  <rect x="228" y="190" width="298" height="12" fill="rgba(168,85,247,0.06)"/>
+  <line x1="228" y1="202" x2="526" y2="202" stroke="rgba(168,85,247,0.25)" stroke-width="0.8"/>
+  <text x="242" y="194" font-family="'Orbitron', monospace" font-size="9" fill="#c084fc" letter-spacing="2" font-weight="700">◈ RECENT PROJECTS</text>
+
+  <!-- Project Card 1: CYBERNETIC UI -->
+  <rect x="238" y="207" width="278" height="56" rx="6" fill="rgba(168,85,247,0.07)" stroke="rgba(168,85,247,0.2)" stroke-width="0.8"/>
+  <text x="248" y="220" font-family="'Orbitron', monospace" font-size="9" font-weight="700" fill="#c084fc" letter-spacing="1.5">CYBERNETIC UI</text>
+  <!-- Mini graph 1 (violet) -->
+  <polyline points="248,246 263,238 277,242 292,234 307,238 322,230 336,234 351,226 365,230 380,222 395,226 410,218" fill="none" stroke="#c084fc" stroke-width="1.5" clip-path="url(#clip-g1)" transform="translate(238,207)"/>
+  <polygon points="248,246 263,238 277,242 292,234 307,238 322,230 336,234 351,226 365,230 380,222 395,226 410,218 410,250 248,250" fill="url(#grad-violet)" clip-path="url(#clip-g1)" transform="translate(238,207)" opacity="0.6"/>
+  <!-- Live demo btn -->
+  <rect x="362" y="247" width="76" height="14" rx="2" fill="rgba(244,114,182,0.08)" stroke="rgba(244,114,182,0.6)" stroke-width="0.7"/>
+  <circle cx="370" cy="254" r="2.5" fill="#f472b6" opacity="0.9"/>
+  <text x="393" y="258" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="7.5" fill="#f472b6" letter-spacing="1.2">LIVE DEMO</text>
+
+  <!-- Project Card 2: DATA SPHERE -->
+  <rect x="238" y="268" width="278" height="56" rx="6" fill="rgba(168,85,247,0.07)" stroke="rgba(168,85,247,0.2)" stroke-width="0.8"/>
+  <text x="248" y="281" font-family="'Orbitron', monospace" font-size="9" font-weight="700" fill="#c084fc" letter-spacing="1.5">DATA SPHERE</text>
+  <polyline points="248,307 263,302 277,296 292,300 307,292 322,298 336,290 351,294 365,286 380,292 395,284 410,288" fill="none" stroke="#00ffff" stroke-width="1.5" transform="translate(238,268)"/>
+  <polygon points="248,307 263,302 277,296 292,300 307,292 322,298 336,290 351,294 365,286 380,292 395,284 410,288 410,314 248,314" fill="url(#grad-cyan)" transform="translate(238,268)" opacity="0.5"/>
+  <rect x="362" y="308" width="76" height="14" rx="2" fill="rgba(244,114,182,0.08)" stroke="rgba(244,114,182,0.6)" stroke-width="0.7"/>
+  <circle cx="370" cy="315" r="2.5" fill="#f472b6" opacity="0.9"/>
+  <text x="393" y="319" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="7.5" fill="#f472b6" letter-spacing="1.2">LIVE DEMO</text>
+
+  <!-- Project Card 3: AETHERNET -->
+  <rect x="238" y="329" width="278" height="56" rx="6" fill="rgba(168,85,247,0.07)" stroke="rgba(168,85,247,0.2)" stroke-width="0.8"/>
+  <text x="248" y="342" font-family="'Orbitron', monospace" font-size="9" font-weight="700" fill="#c084fc" letter-spacing="1.5">AETHERNET</text>
+  <polyline points="248,368 263,362 277,358 292,364 307,356 322,360 336,352 351,358 365,348 380,354 395,344 410,350" fill="none" stroke="#f472b6" stroke-width="1.5" transform="translate(238,329)"/>
+  <polygon points="248,368 263,362 277,358 292,364 307,356 322,360 336,352 351,358 365,348 380,354 395,344 410,350 410,374 248,374" fill="url(#grad-pink)" transform="translate(238,329)" opacity="0.5"/>
+  <rect x="362" y="369" width="76" height="14" rx="2" fill="rgba(244,114,182,0.08)" stroke="rgba(244,114,182,0.6)" stroke-width="0.7"/>
+  <circle cx="370" cy="376" r="2.5" fill="#f472b6" opacity="0.9"/>
+  <text x="393" y="380" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="7.5" fill="#f472b6" letter-spacing="1.2">LIVE DEMO</text>
+
+  <!-- ═══════ PERFORMANCE STATS PANEL (right) ═══════ -->
+  <rect x="538" y="178" width="304" height="210" rx="8" fill="rgba(244,114,182,0.025)" stroke="rgba(244,114,182,0.3)" stroke-width="1"/>
+  <rect x="538" y="178" width="304" height="24" rx="8" fill="rgba(244,114,182,0.06)"/>
+  <rect x="538" y="190" width="304" height="12" fill="rgba(244,114,182,0.06)"/>
+  <line x1="538" y1="202" x2="842" y2="202" stroke="rgba(244,114,182,0.2)" stroke-width="0.8"/>
+  <text x="552" y="194" font-family="'Orbitron', monospace" font-size="9" fill="#f472b6" letter-spacing="2" font-weight="700">◈ PERFORMANCE STATS</text>
+
+  <!-- Y axis labels -->
+  <text x="552" y="212" font-family="'Share Tech Mono', monospace" font-size="8" fill="rgba(0,255,255,0.4)">30</text>
+  <text x="552" y="236" font-family="'Share Tech Mono', monospace" font-size="8" fill="rgba(0,255,255,0.4)">25</text>
+  <text x="552" y="260" font-family="'Share Tech Mono', monospace" font-size="8" fill="rgba(0,255,255,0.4)">20</text>
+  <text x="552" y="284" font-family="'Share Tech Mono', monospace" font-size="8" fill="rgba(0,255,255,0.4)">15</text>
+  <text x="552" y="308" font-family="'Share Tech Mono', monospace" font-size="8" fill="rgba(0,255,255,0.4)">10</text>
+  <text x="556" y="332" font-family="'Share Tech Mono', monospace" font-size="8" fill="rgba(0,255,255,0.4)">5</text>
+  <text x="556" y="356" font-family="'Share Tech Mono', monospace" font-size="8" fill="rgba(0,255,255,0.4)">0</text>
+
+  <!-- Grid lines -->
+  <line x1="567" y1="208" x2="834" y2="208" stroke="rgba(0,255,255,0.08)" stroke-width="0.5"/>
+  <line x1="567" y1="232" x2="834" y2="232" stroke="rgba(0,255,255,0.08)" stroke-width="0.5"/>
+  <line x1="567" y1="256" x2="834" y2="256" stroke="rgba(0,255,255,0.08)" stroke-width="0.5"/>
+  <line x1="567" y1="280" x2="834" y2="280" stroke="rgba(0,255,255,0.08)" stroke-width="0.5"/>
+  <line x1="567" y1="304" x2="834" y2="304" stroke="rgba(0,255,255,0.08)" stroke-width="0.5"/>
+  <line x1="567" y1="328" x2="834" y2="328" stroke="rgba(0,255,255,0.08)" stroke-width="0.5"/>
+  <line x1="567" y1="352" x2="834" y2="352" stroke="rgba(0,255,255,0.08)" stroke-width="0.5"/>
+
+  <!-- COMMITS line (cyan) — 7 pts mapping to 0→30 scale, y=352 is 0, y=208 is 30 -->
+  <!-- pts: 3,8,14,20,18,25,28 scaled: y = 352 - (v/30)*144 -->
+  <polyline points="567,337.6 611.5,313.6 656,284.8 700.5,256 745,264.4 789.5,232 834,217.6"
+    fill="none" stroke="#00ffff" stroke-width="1.8" filter="url(#glow-c)"/>
+  <polygon points="567,337.6 611.5,313.6 656,284.8 700.5,256 745,264.4 789.5,232 834,217.6 834,352 567,352"
+    fill="url(#stat-cyan)" opacity="0.5"/>
+  <circle cx="567" cy="337.6" r="3" fill="#00ffff"/>
+  <circle cx="611.5" cy="313.6" r="3" fill="#00ffff"/>
+  <circle cx="656" cy="284.8" r="3" fill="#00ffff"/>
+  <circle cx="700.5" cy="256" r="3" fill="#00ffff"/>
+  <circle cx="745" cy="264.4" r="3" fill="#00ffff"/>
+  <circle cx="789.5" cy="232" r="3" fill="#00ffff"/>
+  <circle cx="834" cy="217.6" r="3" fill="#00ffff"/>
+
+  <!-- STARS line (pink) — 1,4,9,12,16,22,26 -->
+  <polyline points="567,347.2 611.5,332.8 656,308.8 700.5,294.4 745,275.2 789.5,246.4 834,227.2"
+    fill="none" stroke="#f472b6" stroke-width="1.8"/>
+  <polygon points="567,347.2 611.5,332.8 656,308.8 700.5,294.4 745,275.2 789.5,246.4 834,227.2 834,352 567,352"
+    fill="url(#stat-pink)" opacity="0.4"/>
+  <circle cx="567" cy="347.2" r="3" fill="#f472b6"/>
+  <circle cx="611.5" cy="332.8" r="3" fill="#f472b6"/>
+  <circle cx="656" cy="308.8" r="3" fill="#f472b6"/>
+  <circle cx="700.5" cy="294.4" r="3" fill="#f472b6"/>
+  <circle cx="745" cy="275.2" r="3" fill="#f472b6"/>
+  <circle cx="789.5" cy="246.4" r="3" fill="#f472b6"/>
+  <circle cx="834" cy="227.2" r="3" fill="#f472b6"/>
+
+  <!-- PULL REQUESTS line (violet) — 2,6,10,8,14,18,24 -->
+  <polyline points="567,342.4 611.5,323.2 656,304 700.5,313.6 745,284.8 789.5,265.6 834,236.8"
+    fill="none" stroke="#c084fc" stroke-width="1.8"/>
+  <polygon points="567,342.4 611.5,323.2 656,304 700.5,313.6 745,284.8 789.5,265.6 834,236.8 834,352 567,352"
+    fill="url(#stat-violet)" opacity="0.4"/>
+  <circle cx="567" cy="342.4" r="3" fill="#c084fc"/>
+  <circle cx="611.5" cy="323.2" r="3" fill="#c084fc"/>
+  <circle cx="656" cy="304" r="3" fill="#c084fc"/>
+  <circle cx="700.5" cy="313.6" r="3" fill="#c084fc"/>
+  <circle cx="745" cy="284.8" r="3" fill="#c084fc"/>
+  <circle cx="789.5" cy="265.6" r="3" fill="#c084fc"/>
+  <circle cx="834" cy="236.8" r="3" fill="#c084fc"/>
+
+  <!-- Legend -->
+  <circle cx="553" cy="368" r="4" fill="#00ffff"/>
+  <text x="562" y="372" font-family="'Share Tech Mono', monospace" font-size="8.5" fill="rgba(0,255,255,0.8)" letter-spacing="0.5">COMMITS</text>
+  <circle cx="628" cy="368" r="4" fill="#f472b6"/>
+  <text x="637" y="372" font-family="'Share Tech Mono', monospace" font-size="8.5" fill="rgba(244,114,182,0.8)" letter-spacing="0.5">STARS</text>
+  <circle cx="688" cy="368" r="4" fill="#c084fc"/>
+  <text x="697" y="372" font-family="'Share Tech Mono', monospace" font-size="8.5" fill="rgba(192,132,252,0.8)" letter-spacing="0.5">PULL REQUESTS</text>
+
+  <!-- ═══════ SYSTEM STATUS PANEL (bottom left) ═══════ -->
+  <rect x="18" y="400" width="390" height="150" rx="8" fill="rgba(0,255,255,0.02)" stroke="rgba(0,255,255,0.2)" stroke-width="1"/>
+  <rect x="18" y="400" width="390" height="24" rx="8" fill="rgba(0,255,255,0.05)"/>
+  <rect x="18" y="412" width="390" height="12" fill="rgba(0,255,255,0.05)"/>
+  <line x1="18" y1="424" x2="408" y2="424" stroke="rgba(0,255,255,0.15)" stroke-width="0.8"/>
+  <text x="32" y="416" font-family="'Orbitron', monospace" font-size="9" fill="#00ffff" letter-spacing="2" font-weight="700">◈ SYSTEM STATUS</text>
+
+  <!-- Bar: ACTIVITY 87% -->
+  <text x="32" y="443" font-family="'Share Tech Mono', monospace" font-size="9" fill="rgba(0,255,255,0.7)" letter-spacing="0.5">ACTIVITY</text>
+  <rect x="100" y="434" width="278" height="6" rx="3" fill="rgba(0,255,255,0.1)"/>
+  <rect x="100" y="434" width="242" height="6" rx="3" fill="url(#bar-cyan)"/>
+  <text x="388" y="443" font-family="'Share Tech Mono', monospace" font-size="9" fill="#00ffff" text-anchor="end">87%</text>
+
+  <!-- Bar: REPOS 64% -->
+  <text x="32" y="464" font-family="'Share Tech Mono', monospace" font-size="9" fill="rgba(0,255,255,0.7)" letter-spacing="0.5">REPOS</text>
+  <rect x="100" y="455" width="278" height="6" rx="3" fill="rgba(168,85,247,0.1)"/>
+  <rect x="100" y="455" width="178" height="6" rx="3" fill="url(#bar-violet)"/>
+  <text x="388" y="464" font-family="'Share Tech Mono', monospace" font-size="9" fill="#c084fc" text-anchor="end">64%</text>
+
+  <!-- Bar: COLLAB 73% -->
+  <text x="32" y="485" font-family="'Share Tech Mono', monospace" font-size="9" fill="rgba(0,255,255,0.7)" letter-spacing="0.5">COLLAB</text>
+  <rect x="100" y="476" width="278" height="6" rx="3" fill="rgba(244,114,182,0.1)"/>
+  <rect x="100" y="476" width="203" height="6" rx="3" fill="url(#bar-pink)"/>
+  <text x="388" y="485" font-family="'Share Tech Mono', monospace" font-size="9" fill="#f472b6" text-anchor="end">73%</text>
+
+  <!-- Bar: UPTIME 99% -->
+  <text x="32" y="506" font-family="'Share Tech Mono', monospace" font-size="9" fill="rgba(0,255,255,0.7)" letter-spacing="0.5">UPTIME</text>
+  <rect x="100" y="497" width="278" height="6" rx="3" fill="rgba(0,255,255,0.1)"/>
+  <rect x="100" y="497" width="275" height="6" rx="3" fill="url(#bar-cyan)"/>
+  <text x="388" y="506" font-family="'Share Tech Mono', monospace" font-size="9" fill="#00ffff" text-anchor="end">99%</text>
+
+  <!-- Status indicator -->
+  <circle cx="32" cy="530" r="3.5" fill="#00ffff" opacity="0.8"/>
+  <text x="42" y="534" font-family="'Share Tech Mono', monospace" font-size="8.5" fill="rgba(0,255,255,0.5)" letter-spacing="1">ALL SYSTEMS NOMINAL</text>
+
+  <!-- ═══════ CONNECT WITH ME PANEL (bottom right) ═══════ -->
+  <rect x="420" y="400" width="422" height="150" rx="8" fill="rgba(244,114,182,0.02)" stroke="rgba(244,114,182,0.25)" stroke-width="1"/>
+  <rect x="420" y="400" width="422" height="24" rx="8" fill="rgba(244,114,182,0.05)"/>
+  <rect x="420" y="412" width="422" height="12" fill="rgba(244,114,182,0.05)"/>
+  <line x1="420" y1="424" x2="842" y2="424" stroke="rgba(244,114,182,0.15)" stroke-width="0.8"/>
+  <text x="434" y="416" font-family="'Orbitron', monospace" font-size="9" fill="#f472b6" letter-spacing="2" font-weight="700">◈ CONNECT WITH ME</text>
+
+  <!-- LinkedIn circle button -->
+  <circle cx="500" cy="482" r="28" fill="rgba(0,255,255,0.06)" stroke="rgba(0,255,255,0.6)" stroke-width="1.5" filter="url(#glow-c)"/>
+  <circle cx="500" cy="482" r="34" fill="none" stroke="rgba(0,255,255,0.15)" stroke-width="0.8"/>
+  <!-- LinkedIn icon (simplified) -->
+  <text x="500" y="477" text-anchor="middle" font-family="'Orbitron', monospace" font-size="14" font-weight="900" fill="#00ffff">in</text>
+  <line x1="492" y1="481" x2="492" y2="490" stroke="#00ffff" stroke-width="2"/>
+  <circle cx="492" cy="478" r="1.5" fill="#00ffff"/>
+  <line x1="495" y1="484" x2="495" y2="490" stroke="#00ffff" stroke-width="1.5"/>
+  <line x1="495" y1="484" x2="498" y2="482" stroke="#00ffff" stroke-width="1.5"/>
+  <line x1="498" y1="482" x2="501" y2="484" stroke="#00ffff" stroke-width="1.5"/>
+  <line x1="501" y1="484" x2="501" y2="490" stroke="#00ffff" stroke-width="1.5"/>
+  <text x="500" y="524" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="8" fill="#00ffff" letter-spacing="0.5">CLICK TO OPEN</text>
+  <circle cx="500" cy="531" r="2" fill="#00ffff" opacity="0.6"/>
+
+  <!-- Email circle button -->
+  <circle cx="620" cy="482" r="28" fill="rgba(244,114,182,0.06)" stroke="rgba(244,114,182,0.6)" stroke-width="1.5"/>
+  <circle cx="620" cy="482" r="34" fill="none" stroke="rgba(244,114,182,0.15)" stroke-width="0.8"/>
+  <!-- Envelope icon -->
+  <rect x="607" y="474" width="26" height="18" rx="2" fill="none" stroke="#f472b6" stroke-width="1.5"/>
+  <polyline points="607,474 620,484 633,474" fill="none" stroke="#f472b6" stroke-width="1.5"/>
+  <text x="620" y="524" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="8" fill="#f472b6" letter-spacing="0.5">CLICK TO OPEN</text>
+  <circle cx="620" cy="531" r="2" fill="#f472b6" opacity="0.6"/>
+
+  <!-- Security badges -->
+  <text x="730" y="455" font-family="'Share Tech Mono', monospace" font-size="8" fill="rgba(0,255,255,0.4)" letter-spacing="0.5">◈ SECURE LINK</text>
+  <text x="730" y="472" font-family="'Share Tech Mono', monospace" font-size="8" fill="rgba(0,255,255,0.35)" letter-spacing="0.5">◈ ENCRYPTED</text>
+  <text x="730" y="489" font-family="'Share Tech Mono', monospace" font-size="8" fill="rgba(0,255,255,0.3)" letter-spacing="0.5">◈ VERIFIED</text>
+  <text x="730" y="506" font-family="'Share Tech Mono', monospace" font-size="8" fill="rgba(244,114,182,0.3)" letter-spacing="0.5">◈ ACTIVE</text>
+
+  <!-- ═══════ BOTTOM STATUS BAR ═══════ -->
+  <rect x="18" y="562" width="824" height="140" rx="8" fill="rgba(0,0,0,0.3)" stroke="rgba(168,85,247,0.15)" stroke-width="0.8"/>
+  <!-- GitHub stats widgets area -->
+  <text x="430" y="580" text-anchor="middle" font-family="'Orbitron', monospace" font-size="8" fill="rgba(168,85,247,0.5)" letter-spacing="2">◈ LIVE GITHUB METRICS ◈</text>
+
+  <!-- Stat boxes -->
+  <rect x="28" y="587" width="180" height="50" rx="6" fill="rgba(0,255,255,0.04)" stroke="rgba(0,255,255,0.2)" stroke-width="0.8"/>
+  <text x="118" y="607" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="8.5" fill="rgba(0,255,255,0.5)" letter-spacing="1">TOTAL COMMITS</text>
+  <text x="118" y="626" text-anchor="middle" font-family="'Orbitron', monospace" font-size="18" font-weight="700" fill="#00ffff" filter="url(#glow-c)">1,247</text>
+
+  <rect x="220" y="587" width="180" height="50" rx="6" fill="rgba(168,85,247,0.04)" stroke="rgba(168,85,247,0.2)" stroke-width="0.8"/>
+  <text x="310" y="607" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="8.5" fill="rgba(168,85,247,0.5)" letter-spacing="1">REPOSITORIES</text>
+  <text x="310" y="626" text-anchor="middle" font-family="'Orbitron', monospace" font-size="18" font-weight="700" fill="#c084fc">42</text>
+
+  <rect x="412" y="587" width="180" height="50" rx="6" fill="rgba(244,114,182,0.04)" stroke="rgba(244,114,182,0.2)" stroke-width="0.8"/>
+  <text x="502" y="607" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="8.5" fill="rgba(244,114,182,0.5)" letter-spacing="1">TOTAL STARS</text>
+  <text x="502" y="626" text-anchor="middle" font-family="'Orbitron', monospace" font-size="18" font-weight="700" fill="#f472b6">328</text>
+
+  <rect x="604" y="587" width="230" height="50" rx="6" fill="rgba(0,255,255,0.04)" stroke="rgba(0,255,255,0.2)" stroke-width="0.8"/>
+  <text x="719" y="607" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="8.5" fill="rgba(0,255,255,0.5)" letter-spacing="1">PULL REQUESTS MERGED</text>
+  <text x="719" y="626" text-anchor="middle" font-family="'Orbitron', monospace" font-size="18" font-weight="700" fill="#00ffff">89</text>
+
+  <!-- Contribution activity dots (simulated heatmap) -->
+  <text x="32" y="657" font-family="'Share Tech Mono', monospace" font-size="8" fill="rgba(0,255,255,0.35)" letter-spacing="1">CONTRIBUTION ACTIVITY</text>
+  <!-- Dots row -->
+  <g opacity="0.7">
+    <rect x="32" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.8"/>
+    <rect x="41" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.4"/>
+    <rect x="50" y="662" width="6" height="6" rx="1" fill="#c084fc" opacity="0.9"/>
+    <rect x="59" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.6"/>
+    <rect x="68" y="662" width="6" height="6" rx="1" fill="#f472b6" opacity="0.8"/>
+    <rect x="77" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.3"/>
+    <rect x="86" y="662" width="6" height="6" rx="1" fill="#c084fc" opacity="0.7"/>
+    <rect x="95" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.9"/>
+    <rect x="104" y="662" width="6" height="6" rx="1" fill="#f472b6" opacity="0.5"/>
+    <rect x="113" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.4"/>
+    <rect x="122" y="662" width="6" height="6" rx="1" fill="#c084fc" opacity="0.8"/>
+    <rect x="131" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.6"/>
+    <rect x="140" y="662" width="6" height="6" rx="1" fill="#f472b6" opacity="0.9"/>
+    <rect x="149" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.3"/>
+    <rect x="158" y="662" width="6" height="6" rx="1" fill="#c084fc" opacity="0.5"/>
+    <rect x="167" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.7"/>
+    <rect x="176" y="662" width="6" height="6" rx="1" fill="#f472b6" opacity="0.4"/>
+    <rect x="185" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.8"/>
+    <rect x="194" y="662" width="6" height="6" rx="1" fill="#c084fc" opacity="0.6"/>
+    <rect x="203" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.9"/>
+    <rect x="212" y="662" width="6" height="6" rx="1" fill="#f472b6" opacity="0.7"/>
+    <rect x="221" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.5"/>
+    <rect x="230" y="662" width="6" height="6" rx="1" fill="#c084fc" opacity="0.8"/>
+    <rect x="239" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.3"/>
+    <rect x="248" y="662" width="6" height="6" rx="1" fill="#f472b6" opacity="0.6"/>
+    <rect x="257" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.9"/>
+    <rect x="266" y="662" width="6" height="6" rx="1" fill="#c084fc" opacity="0.4"/>
+    <rect x="275" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.7"/>
+    <rect x="284" y="662" width="6" height="6" rx="1" fill="#f472b6" opacity="0.8"/>
+    <rect x="293" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.5"/>
+    <rect x="302" y="662" width="6" height="6" rx="1" fill="#c084fc" opacity="0.9"/>
+    <rect x="311" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.6"/>
+    <rect x="320" y="662" width="6" height="6" rx="1" fill="#f472b6" opacity="0.3"/>
+    <rect x="329" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.8"/>
+    <rect x="338" y="662" width="6" height="6" rx="1" fill="#c084fc" opacity="0.5"/>
+    <rect x="347" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.7"/>
+    <rect x="356" y="662" width="6" height="6" rx="1" fill="#f472b6" opacity="0.9"/>
+    <rect x="365" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.4"/>
+    <rect x="374" y="662" width="6" height="6" rx="1" fill="#c084fc" opacity="0.6"/>
+    <rect x="383" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.8"/>
+    <rect x="392" y="662" width="6" height="6" rx="1" fill="#f472b6" opacity="0.5"/>
+    <rect x="401" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.7"/>
+    <rect x="410" y="662" width="6" height="6" rx="1" fill="#c084fc" opacity="0.9"/>
+    <rect x="419" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.3"/>
+    <rect x="428" y="662" width="6" height="6" rx="1" fill="#f472b6" opacity="0.6"/>
+    <rect x="437" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.8"/>
+    <rect x="446" y="662" width="6" height="6" rx="1" fill="#c084fc" opacity="0.4"/>
+    <rect x="455" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.7"/>
+    <rect x="464" y="662" width="6" height="6" rx="1" fill="#f472b6" opacity="0.5"/>
+    <rect x="473" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.9"/>
+    <rect x="482" y="662" width="6" height="6" rx="1" fill="#c084fc" opacity="0.6"/>
+    <rect x="491" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.8"/>
+    <rect x="500" y="662" width="6" height="6" rx="1" fill="#f472b6" opacity="0.3"/>
+    <rect x="509" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.5"/>
+    <rect x="518" y="662" width="6" height="6" rx="1" fill="#c084fc" opacity="0.7"/>
+    <rect x="527" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.9"/>
+    <rect x="536" y="662" width="6" height="6" rx="1" fill="#f472b6" opacity="0.4"/>
+    <rect x="545" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.6"/>
+    <rect x="554" y="662" width="6" height="6" rx="1" fill="#c084fc" opacity="0.8"/>
+    <rect x="563" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.5"/>
+    <rect x="572" y="662" width="6" height="6" rx="1" fill="#f472b6" opacity="0.7"/>
+    <rect x="581" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.9"/>
+    <rect x="590" y="662" width="6" height="6" rx="1" fill="#c084fc" opacity="0.3"/>
+    <rect x="599" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.6"/>
+    <rect x="608" y="662" width="6" height="6" rx="1" fill="#f472b6" opacity="0.8"/>
+    <rect x="617" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.4"/>
+    <rect x="626" y="662" width="6" height="6" rx="1" fill="#c084fc" opacity="0.7"/>
+    <rect x="635" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.9"/>
+    <rect x="644" y="662" width="6" height="6" rx="1" fill="#f472b6" opacity="0.5"/>
+    <rect x="653" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.6"/>
+    <rect x="662" y="662" width="6" height="6" rx="1" fill="#c084fc" opacity="0.8"/>
+    <rect x="671" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.3"/>
+    <rect x="680" y="662" width="6" height="6" rx="1" fill="#f472b6" opacity="0.7"/>
+    <rect x="689" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.9"/>
+    <rect x="698" y="662" width="6" height="6" rx="1" fill="#c084fc" opacity="0.5"/>
+    <rect x="707" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.4"/>
+    <rect x="716" y="662" width="6" height="6" rx="1" fill="#f472b6" opacity="0.8"/>
+    <rect x="725" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.6"/>
+    <rect x="734" y="662" width="6" height="6" rx="1" fill="#c084fc" opacity="0.7"/>
+    <rect x="743" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.9"/>
+    <rect x="752" y="662" width="6" height="6" rx="1" fill="#f472b6" opacity="0.3"/>
+    <rect x="761" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.5"/>
+    <rect x="770" y="662" width="6" height="6" rx="1" fill="#c084fc" opacity="0.8"/>
+    <rect x="779" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.6"/>
+    <rect x="788" y="662" width="6" height="6" rx="1" fill="#f472b6" opacity="0.4"/>
+    <rect x="797" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.7"/>
+    <rect x="806" y="662" width="6" height="6" rx="1" fill="#c084fc" opacity="0.9"/>
+    <rect x="815" y="662" width="6" height="6" rx="1" fill="#00ffff" opacity="0.5"/>
+    <rect x="824" y="662" width="6" height="6" rx="1" fill="#f472b6" opacity="0.8"/>
+  </g>
+
+  <!-- Footer timestamp -->
+  <text x="430" y="710" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="8" fill="rgba(0,255,255,0.2)" letter-spacing="1">◈ SYSTEM ONLINE ◈ THANUJAYA448.GITHUB.IO ◈ v4.8.0 ◈</text>
+</svg>
