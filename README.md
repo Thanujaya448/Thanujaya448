@@ -1,3 +1,20 @@
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=30&duration=3500&pause=1000&color=00F0FF&center=true&vCenter=true&width=700&lines=INITIALIZING+SYSTEM...;ACCESS+GRANTED%3A+THANUJAYA448;DIGITAL+ARCHITECT+%26+DEVELOPER" alt="Typing SVG" />
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/type=cyberpunk&color=00f0ff&text=THANUJAYA%20HASARANGA&fontSize=24&animation=fadeIn&fontAlignY=45" alt="Cyberpunk Header" />
+</p>
+
+---
+
+## ⚡ SYSTEM OVERVIEW
+
+```microcode
+> NAME: Thanujaya Hasaranga Perera
+> STATUS: Active Cyber-Architect
+> OBJECTIVE: Maximize performance blueprints // Deploy seamless user interfaces
+
 # Hi there, I'm Thanujaya Hasaranga Perera! 👋
 
 ### 🚀 Creative Developer & Tech Enthusiast
