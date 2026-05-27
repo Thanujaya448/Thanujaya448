@@ -1,54 +1,51 @@
-<div align="center">
+# Hi there, I'm Thanujaya Hasaranga Perera! 👋
 
-<!-- CYBERPUNK HEADER BANNER -->
-<img src="https://readmeforge.natrajx.in/api/banner?text=SYSTEM%20ONLINE&metal=neon&background=0a0a18" />
+### 🚀 Creative Developer & Tech Enthusiast
 
-<br/>
-
-<!-- TYPING ANIMATION -->
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=26&pause=1000&color=00F5FF&center=true&vCenter=true&width=800&lines=Initializing+Developer+Profile...;Loading+Cyberpunk+System...;Software+Engineering+Student+Active;Building+Real+World+Systems" />
+A passionate developer focused on building impactful digital solutions, optimizing performance, and bringing creative ideas to life. I thrive at the intersection of clean code, seamless user experiences, and visual asset design.
 
 ---
 
-</div>
+### 🛠️ My Tech Stack
 
-## 🧠 IDENTITY MATRIX
+**Programming Languages & Core Web**
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
 
-```bash
-NAME      : Thanujaya Hasaranga Perera
-STATUS    : ACTIVE
-ROLE      : Software Engineering Student
-LOCATION  : Sri Lanka
-MISSION   : Upgrade → Full Stack Software Engineer
+**Design & Creative Tools**
+![Photoshop](https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=black)
+![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
 
-⚙️ CORE SYSTEM MODULES
-🎓 HND Software Engineering (Level 5)
-📚 BSc (Hons) Software Engineering (In Progress)
-💼 Experience in admin + examination systems
-🧩 Focus: Backend systems, automation, system design
+**Tools & Ecosystem**
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 
-🧬 TECH ARSENAL
-<p align="center"> <img src="https://skillicons.dev/icons?i=python,java,javascript,html,css,mysql,git,github,vscode" /> </p>
+---
 
-🚀 ACTIVE PROJECTS
-🔹 Admission Card Generator
+### 📊 GitHub Stats
 
-Automates bulk admission card creation using Python + Word + Excel processing.
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=Thanujaya448&show_icons=true&theme=tokyonight&count_private=true" alt="Thanujaya's GitHub Stats" height="180px"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Thanujaya448&layout=compact&theme=tokyonight" alt="Top Languages" height="180px"/>
+</p>
 
-🔹 Fresh Grocers System
+---
 
-Web-based grocery delivery system designed with system analysis + Agile workflow.
+### 🎯 What I Do
+* 🌐 **Web Development:** Crafting responsive, interactive, and high-performance web applications.
+* 🎨 **Visual Content & Design:** Designing high-quality digital assets, posters, layouts, and production-ready marketing materials.
+* ⚡ **Hardware Optimization:** Deeply interested in tech infrastructure, PC hardware architectures, and maximizing system performance benchmarks.
 
-🔹 Automation Tools
+---
 
-Scripts built to eliminate repetitive administrative tasks and improve efficiency.
+### 🤝 Connect with Me
 
-📊 SYSTEM STATUS
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=Thanujaya448&show_icons=true&theme=tokyonight&hide_border=true" /> <br/> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Thanujaya448&layout=compact&theme=tokyonight&hide_border=true" /> </p>
-📡 NETWORK CONNECTIONS
-<p align="center"> <a href="https://www.linkedin.com/in/thanujaya-hasaranga-perera/"> <img src="https://img.shields.io/badge/LINKEDIN-00F5FF?style=for-the-badge&logo=linkedin&logoColor=black"/> </a> <a href="mailto:thanujayahasaranga1112@gmail.com"> <img src="https://img.shields.io/badge/EMAIL-FF007F?style=for-the-badge&logo=gmail&logoColor=black"/> </a> </p>
-⚠️ SYSTEM MESSAGE
-You are not competing with others.
-You are competing with your last version.
-<div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5ff,100:ff00ff&height=120&section=footer"/> </div> ```
+Let's collaborate on an exciting project, talk about development, or share tips on performance tuning!
 
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thanujaya-hasaranga-perera/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:thanujayahasaranga1112@gmail.com)
+
+---
+*✨ "Stay curious, code cleanly, and always optimize for the best possible performance."*
