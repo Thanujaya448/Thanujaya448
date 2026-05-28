@@ -1,13 +1,5 @@
 <div align="center">
 
-![THANUJAYA448 GitHub Profile Dashboard](./github_profile_dashboard.svg)
-
-</div>
-
----
-
-<div align="center">
-
 ## ◈ LIVE GITHUB STATS ◈
 
 <!-- Replace THANUJAYA448 with your exact GitHub username if different -->
