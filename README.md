@@ -17,7 +17,7 @@
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-THANUJAYA-00ffff?style=for-the-badge&logo=linkedin&logoColor=00ffff&labelColor=03040a)](https://linkedin.com/in/YOUR_LINKEDIN_HERE)
-[![Email](https://img.shields.io/badge/Email-CONTACT_ME-f472b6?style=for-the-badge&logo=gmail&logoColor=f472b6&labelColor=03040a)](mailto:YOUR_EMAIL_HERE)
+[![Email](https://img.shields.io/badge/Email-CONTACT_ME-f472b6?style=for-the-badge&logo=gmail&logoColor=f472b6&labelColor=03040a)](mailto:thanujayahasaranga1112@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-THANUJAYA448-c084fc?style=for-the-badge&logo=github&logoColor=c084fc&labelColor=03040a)](https://github.com/THANUJAYA448)
 
 </div>
